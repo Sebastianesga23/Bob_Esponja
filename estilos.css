@@ -13,7 +13,7 @@
 #contenedor .gesto1{
     width: 40px;
     height: 50px;
-    background-color: #6ab04c;
+    background-color: #d97706;
     position: absolute;
     left: 80px;
     top: 80px;
@@ -26,7 +26,7 @@
 #contenedor .gesto2{
     width: 20px;
     height: 25px;
-    background-color: #6ab04c;
+    background-color: #d97706;
     position: absolute;
     left: 90px;
     top: 140px;
@@ -39,7 +39,7 @@
 #contenedor .gesto3{
     width: 40px;
     height: 50px;
-    background-color: #6ab04c;
+    background-color: #d97706;
     border-radius: 20px;
     position: absolute;
     left: 150px;
@@ -53,7 +53,7 @@
 #contenedor .gesto4{
     width: 15px;
     height: 20px;
-    background-color: #6ab04c;
+    background-color: #d97706;
     border-radius: 20px;
     position: absolute;
     left: 120px;
@@ -67,7 +67,7 @@
 #contenedor .gesto5{
     width: 15px;
     height: 20px;
-    background-color: #6ab04c;
+    background-color: #d97706;
     border-radius: 20px;
     position: absolute;
     left: 320px;
@@ -81,7 +81,7 @@
 #contenedor .gesto6{
     width: 40px;
     height: 50px;
-    background-color: #6ab04c;
+    background-color: #d97706;
     border-radius: 20px;
     position: absolute;
     left: 340px;
@@ -95,7 +95,7 @@
 #contenedor .gesto7{
     width: 20px;
     height: 25px;
-    background-color: #6ab04c;
+    background-color:  #d97706;
     position: absolute;
     left: 360px;
     top: 130px;
