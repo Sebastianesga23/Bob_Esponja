@@ -1,0 +1,231 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#contenedor{
+    background-color: #f1c40f;
+    width: 500px;
+    height: 500px;
+    position: relative; 
+}
+#contenedor .gesto1{
+    width: 40px;
+    height: 50px;
+    background-color: #6ab04c;
+    position: absolute;
+    left: 80px;
+    top: 80px;
+    transform: skewX(-20deg);
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+#contenedor .gesto2{
+    width: 20px;
+    height: 25px;
+    background-color: #6ab04c;
+    position: absolute;
+    left: 90px;
+    top: 140px;
+    transform: skewX(-20deg);
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+#contenedor .gesto3{
+    width: 40px;
+    height: 50px;
+    background-color: #6ab04c;
+    border-radius: 20px;
+    position: absolute;
+    left: 150px;
+    top: 300px;
+    transform: rotate(25deg);
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+#contenedor .gesto4{
+    width: 15px;
+    height: 20px;
+    background-color: #6ab04c;
+    border-radius: 20px;
+    position: absolute;
+    left: 120px;
+    top: 280px;
+    transform: rotate(45deg);
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+#contenedor .gesto5{
+    width: 15px;
+    height: 20px;
+    background-color: #6ab04c;
+    border-radius: 20px;
+    position: absolute;
+    left: 320px;
+    top: 300px;
+    transform: rotate(45deg);
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+#contenedor .gesto6{
+    width: 40px;
+    height: 50px;
+    background-color: #6ab04c;
+    border-radius: 20px;
+    position: absolute;
+    left: 340px;
+    top: 250px;
+    transform: skewY(-25deg);
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+#contenedor .gesto7{
+    width: 20px;
+    height: 25px;
+    background-color: #6ab04c;
+    position: absolute;
+    left: 360px;
+    top: 130px;
+    transform: skewX(-20deg);
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+#contenedor #ojos{
+    width: 200px;
+    height: 100px;
+    background-color: #f1c40f;
+    position:absolute;
+    top:100px;
+    left:150px;
+    display: flex;
+    flex-direction: row;
+}
+
+#contenedor #ojos .ojo{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    border: 3px solid black;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedor #ojos .ojo .pestanas{
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: -20px;
+    display: flex;
+    flex-direction: row;
+}
+
+#contenedor #ojos .ojo .pestanas .pestana{
+    width: 6px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+}
+
+#contenedor #ojos .ojo .pestanas .pestana1{
+    left: 20px;
+    top: 7px;
+    transform: rotate(-30deg);
+}
+#contenedor #ojos .ojo .pestanas .pestana2{
+    left:46px;
+}
+#contenedor #ojos .ojo .pestanas .pestana3{
+    top:7px;
+    right: 20px;
+    transform: rotate(30deg);
+}
+#contenedor #ojos .ojo .pupila{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid #2980b9;
+    background-color: #48dbfb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedor #ojos .ojo .pupila .iris{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+}
+
+#contenedor #ojos .ojo .pupila .iris .brillo {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    right: -3px;
+    top: 5px;
+}
+
+#contenedor #nariz{
+    width: 40px;
+    height: 54px;
+    background-color:#f1c40f ;
+    border-radius: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    position: absolute;
+    left: 230px;
+    top: 160px
+}
+
+#contenedor .boca{
+    width: 200px;
+    height: 80px;
+    background: transparent;
+    position: absolute;
+    top: 180px;
+    left: 150px;
+    border-radius: 50%;
+    border-bottom:7px solid black;
+    
+}
+
+#contenedor .boca .diente{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    border: 3px solid black;
+}
+
+#contenedor .boca .diente1{
+    top: 75px;
+    left: 65px;
+}
+#contenedor .boca .diente2{
+    top: 75px;
+    left: 105px;
+}
